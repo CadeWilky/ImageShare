@@ -41,6 +41,7 @@ export default function App() {
     await Sharing.shareAsync(imageTmp.uri);
   }; 
 
+  
   if (selectedImage !== null) {
     return (
       <View style={styles.container}>
